@@ -8,12 +8,11 @@ Group:		Libraries
 Source0:	ftp://ftp.gnophone.com/pub/gnophone/%{name}-%{version}.tar.gz
 #Source0-md5:	d9c14e0a2ad9cb710761795a3497a21c
 Patch0:		%{name}-DESTDIR.patch
-URL:		http://www.gnophone.com
+URL:		http://www.gnophone.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Inter Asterisk eXchange, lovingly called IAX (pronounced: eeks), is
@@ -24,7 +23,7 @@ performance, feature rich protocol unrelated to SIP or H.323. Its
 single-socket design allows it to interoperate with NAT and PAT
 masquerade firewalls. It supports internationalization, remote
 dialplans, and voice, HTML, image, DTMF, and video content. For more
-information see http://www.gnophone.com.
+information see http://www.gnophone.com/.
 
 %package devel
 Summary:	IAX (Inter Asterisk eXchange) Development Package
@@ -41,7 +40,7 @@ performance, feature rich protocol unrelated to SIP or H.323. Its
 single-socket design allows it to interoperate with NAT and PAT
 masquerade firewalls. It supports internationalization, remote
 dialplans, and voice, HTML, image, DTMF, and video content. For more
-information see http://www.gnophone.com. This package contains all of
+information see http://www.gnophone.com/. This package contains all of
 the development files that you will need in order to compile IAX
 applications.
 
@@ -62,7 +61,7 @@ performance, feature rich protocol unrelated to SIP or H.323. Its
 single-socket design allows it to interoperate with NAT and PAT
 masquerade firewalls. It supports internationalization, remote
 dialplans, and voice, HTML, image, DTMF, and video content. For more
-information see http://www.gnophone.com. This package contains static
+information see http://www.gnophone.com/. This package contains static
 libraries that you will need in order to compile statically linked IAX
 applications.
 
@@ -87,7 +86,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
