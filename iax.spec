@@ -6,6 +6,7 @@ Release:	2.1
 License:	LGPL/GPL
 Group:		Libraries
 Source0:	ftp://ftp.gnophone.com/pub/gnophone/%{name}-%{version}.tar.gz
+#Source0-md5:	d9c14e0a2ad9cb710761795a3497a21c
 Patch0:		%{name}-destdir.patch
 URL:		http://www.gnophone.com
 BuildRequires:	autoconf
