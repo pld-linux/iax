@@ -1,0 +1,18 @@
+--- iax-0.2.2/src/Makefile.am~	Sat Jun 14 17:46:39 2003
++++ iax-0.2.2/src/Makefile.am	Sat Jun 14 17:46:39 2003
+@@ -9,10 +9,9 @@
+ EXTRA_DIST = md5.h frame.h iax-client.h iax.h
+ 
+ install:
+-	mkdir -p $(includedir)/iax
+-	install -m 644 md5.h $(includedir)/iax
+-	install -m 644 frame.h $(includedir)/iax
+-	install -m 644 iax.h $(includedir)/iax
+-	install -m 644 iax-client.h $(includedir)/iax
+-	/sbin/ldconfig
++	mkdir -p $(DESTDIR)/$(includedir)/iax
++	install -m 644 md5.h $(DESTDIR)/$(includedir)/iax
++	install -m 644 frame.h $(DESTDIR)/$(includedir)/iax
++	install -m 644 iax.h $(DESTDIR)/$(includedir)/iax
++	install -m 644 iax-client.h $(DESTDIR)/$(includedir)/iax
+ 
