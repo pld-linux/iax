@@ -7,10 +7,11 @@ License:	LGPL/GPL
 Group:		Libraries
 Source0:	ftp://ftp.gnophone.com/pub/gnophone/%{name}-%{version}.tar.gz
 #Source0-md5:	d9c14e0a2ad9cb710761795a3497a21c
-Patch0:		%{name}-destdir.patch
+Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.gnophone.com
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
@@ -46,16 +47,14 @@ rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__automake}
-%configure \
+%configure
 
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} prefix=$RPM_BUILD_ROOT install-strip DESTDIR=$RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}
-install src/.libs/libiax* $RPM_BUILD_ROOT%{_libdir}
+%{__make} install-strip DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -74,4 +73,3 @@ rm -rf $RPM_BUILD_ROOT
 %files static
 %defattr(644,root,root,755)
 %{_libdir}/*.a
-%{_libdir}/*.lai
