@@ -1,4 +1,4 @@
-Summary:	IAX (Inter Asterisk eXchange) Library
+Summary:	IAX (Inter Asterisk eXchange) library
 Summary(pl):	Biblioteka IAX (Inter Asterisk eXchange)
 Name:		iax
 Version:	0.2.2
@@ -26,7 +26,7 @@ dialplans, and voice, HTML, image, DTMF, and video content. For more
 information see http://www.gnophone.com/.
 
 %package devel
-Summary:	IAX (Inter Asterisk eXchange) Development Package
+Summary:	IAX (Inter Asterisk eXchange) development package
 Summary(pl):	Pliki nag³ówkowe dla biblioteki IAX
 Requires:	iax = %{version}
 Group:		Development/Libraries
@@ -44,9 +44,8 @@ information see http://www.gnophone.com/. This package contains all of
 the development files that you will need in order to compile IAX
 applications.
 
-
 %package static
-Summary:	IAX (Inter Asterisk eXchange) Static Package
+Summary:	IAX (Inter Asterisk eXchange) static library
 Summary(pl):	Wersja statyczna biblioteki IAX
 Requires:	iax = %{version}
 Requires:	iax-devel = %{version}
@@ -82,21 +81,26 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install-strip DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%post	-p /sbin/ldconfig
+%postun	-p /sbin/ldconfig
+
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/iax-config
-%{_libdir}/libiax.so.0.0.0
+%attr(755,root,root) %{_libdir}/libiax.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
-%{_includedir}/iax/*
-%{_libdir}/*.la
+%attr(755,root,root) %{_libdir}/lib*.so
+%{_libdir}/lib*.la
+%{_includedir}/iax
 
 %files static
 %defattr(644,root,root,755)
-%{_libdir}/*.a
+%{_libdir}/lib*.a
