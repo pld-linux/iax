@@ -33,7 +33,7 @@ serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
 protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
 architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
 PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML, obrazków, DTMF i obrazu. Wiêcej
+oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
 informacji pod adresem http://www.gnophone.com/.
 
 %package devel
@@ -63,7 +63,7 @@ serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
 protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
 architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
 PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML, obrazków, DTMF i obrazu. Wiêcej
+oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
 informacji pod adresem http://www.gnophone.com/. Ten pakiet zawiera
 wszystkie pliki potrzebne do kompilowania aplikacji IAX.
 
@@ -95,7 +95,7 @@ serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
 protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
 architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
 PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML, obrazków, DTMF i obrazu. Wiêcej
+oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
 informacji pod adresem http://www.gnophone.com/ . Ten pakiet zawiera
 statyczne biblioteki potrzebne do kompilowania statycznie
 konsolidowanych aplikacji IAX.
