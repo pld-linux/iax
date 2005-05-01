@@ -83,7 +83,7 @@ performance, feature rich protocol unrelated to SIP or H.323. Its
 single-socket design allows it to interoperate with NAT and PAT
 masquerade firewalls. It supports internationalization, remote
 dialplans, and voice, HTML, image, DTMF, and video content. For more
-information see http://www.gnophone.com/ . This package contains
+information see <http://www.gnophone.com/>. This package contains
 static libraries that you will need in order to compile statically
 linked IAX applications.
 
@@ -96,7 +96,7 @@ protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
 architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
 PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
 oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
-informacji pod adresem http://www.gnophone.com/ . Ten pakiet zawiera
+informacji pod adresem <http://www.gnophone.com/>. Ten pakiet zawiera
 statyczne biblioteki potrzebne do kompilowania statycznie
 konsolidowanych aplikacji IAX.
 
