@@ -2,7 +2,7 @@ Summary:	IAX (Inter Asterisk eXchange) library
 Summary(pl):	Biblioteka IAX (Inter Asterisk eXchange)
 Name:		iax
 Version:	0.2.2
-Release:	2.1
+Release:	3
 License:	LGPL/GPL
 Group:		Libraries
 Source0:	ftp://ftp.gnophone.com/pub/gnophone/%{name}-%{version}.tar.gz
