@@ -40,7 +40,7 @@ informacji pod adresem http://www.gnophone.com/.
 Summary:	IAX (Inter Asterisk eXchange) development package
 Summary(pl):	Pliki nag³ówkowe dla biblioteki IAX
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Inter Asterisk eXchange, lovingly called IAX (pronounced: eeks), is
@@ -70,9 +70,9 @@ wszystkie pliki potrzebne do kompilowania aplikacji IAX.
 %package static
 Summary:	IAX (Inter Asterisk eXchange) static library
 Summary(pl):	Wersja statyczna biblioteki IAX
+Group:		Development/Libraries
 Requires:	iax = %{version}
 Requires:	iax-devel = %{version}
-Group:		Development/Libraries
 
 %description static
 Inter Asterisk eXchange, lovingly called IAX (pronounced: eeks), is
