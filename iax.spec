@@ -1,5 +1,5 @@
 Summary:	IAX (Inter Asterisk eXchange) library
-Summary(pl):	Biblioteka IAX (Inter Asterisk eXchange)
+Summary(pl.UTF-8):   Biblioteka IAX (Inter Asterisk eXchange)
 Name:		iax
 Version:	0.2.2
 Release:	3
@@ -25,20 +25,20 @@ masquerade firewalls. It supports internationalization, remote
 dialplans, and voice, HTML, image, DTMF, and video content. For more
 information see http://www.gnophone.com/.
 
-%description -l pl
-Inter Asterisk eXchange, z lubo¶ci± nazywany IAX (wymawiany "eeks") to
-protokó³ u¿ywany przez system PBX Asterisk do wewnêtrznej komunikacji.
-Inne aplikacje mog± u¿ywaæ libiax do komunikowania ze sob± i innymi
-serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
-protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
-architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
-PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
+%description -l pl.UTF-8
+Inter Asterisk eXchange, z luboÅ›ciÄ… nazywany IAX (wymawiany "eeks") to
+protokÃ³Å‚ uÅ¼ywany przez system PBX Asterisk do wewnÄ™trznej komunikacji.
+Inne aplikacje mogÄ… uÅ¼ywaÄ‡ libiax do komunikowania ze sobÄ… i innymi
+serwerami asterisk. IAX to wysoko wydajny, bogaty w moÅ¼liwoÅ›ci
+protokÃ³Å‚ nie powiÄ…zany z SIP czy H.323. Jego jednogniazdowa
+architektura pozwala wspÃ³Å‚pracowaÄ‡ z firewallami z maskowaniem NAT i
+PAT. Biblioteka wspiera umiÄ™dzynarodowienie, zdalne plany dzwonienia
+oraz dane w postaci gÅ‚osu, HTML-a, obrazkÃ³w, DTMF i obrazu. WiÄ™cej
 informacji pod adresem http://www.gnophone.com/.
 
 %package devel
 Summary:	IAX (Inter Asterisk eXchange) development package
-Summary(pl):	Pliki nag³ówkowe dla biblioteki IAX
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe dla biblioteki IAX
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -55,21 +55,21 @@ information see http://www.gnophone.com/. This package contains all of
 the development files that you will need in order to compile IAX
 applications.
 
-%description devel -l pl
-Inter Asterisk eXchange, z lubo¶ci± nazywany IAX (wymawiany "eeks") to
-protokó³ u¿ywany przez system PBX Asterisk do wewnêtrznej komunikacji.
-Inne aplikacje mog± u¿ywaæ libiax do komunikowania ze sob± i innymi
-serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
-protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
-architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
-PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
+%description devel -l pl.UTF-8
+Inter Asterisk eXchange, z luboÅ›ciÄ… nazywany IAX (wymawiany "eeks") to
+protokÃ³Å‚ uÅ¼ywany przez system PBX Asterisk do wewnÄ™trznej komunikacji.
+Inne aplikacje mogÄ… uÅ¼ywaÄ‡ libiax do komunikowania ze sobÄ… i innymi
+serwerami asterisk. IAX to wysoko wydajny, bogaty w moÅ¼liwoÅ›ci
+protokÃ³Å‚ nie powiÄ…zany z SIP czy H.323. Jego jednogniazdowa
+architektura pozwala wspÃ³Å‚pracowaÄ‡ z firewallami z maskowaniem NAT i
+PAT. Biblioteka wspiera umiÄ™dzynarodowienie, zdalne plany dzwonienia
+oraz dane w postaci gÅ‚osu, HTML-a, obrazkÃ³w, DTMF i obrazu. WiÄ™cej
 informacji pod adresem http://www.gnophone.com/. Ten pakiet zawiera
 wszystkie pliki potrzebne do kompilowania aplikacji IAX.
 
 %package static
 Summary:	IAX (Inter Asterisk eXchange) static library
-Summary(pl):	Wersja statyczna biblioteki IAX
+Summary(pl.UTF-8):   Wersja statyczna biblioteki IAX
 Group:		Development/Libraries
 Requires:	iax = %{version}
 Requires:	iax-devel = %{version}
@@ -87,15 +87,15 @@ information see <http://www.gnophone.com/>. This package contains
 static libraries that you will need in order to compile statically
 linked IAX applications.
 
-%description static -l pl
-Inter Asterisk eXchange, z lubo¶ci± nazywany IAX (wymawiany "eeks") to
-protokó³ u¿ywany przez system PBX Asterisk do wewnêtrznej komunikacji.
-Inne aplikacje mog± u¿ywaæ libiax do komunikowania ze sob± i innymi
-serwerami asterisk. IAX to wysoko wydajny, bogaty w mo¿liwo¶ci
-protokó³ nie powi±zany z SIP czy H.323. Jego jednogniazdowa
-architektura pozwala wspó³pracowaæ z firewallami z maskowaniem NAT i
-PAT. Biblioteka wspiera umiêdzynarodowienie, zdalne plany dzwonienia
-oraz dane w postaci g³osu, HTML-a, obrazków, DTMF i obrazu. Wiêcej
+%description static -l pl.UTF-8
+Inter Asterisk eXchange, z luboÅ›ciÄ… nazywany IAX (wymawiany "eeks") to
+protokÃ³Å‚ uÅ¼ywany przez system PBX Asterisk do wewnÄ™trznej komunikacji.
+Inne aplikacje mogÄ… uÅ¼ywaÄ‡ libiax do komunikowania ze sobÄ… i innymi
+serwerami asterisk. IAX to wysoko wydajny, bogaty w moÅ¼liwoÅ›ci
+protokÃ³Å‚ nie powiÄ…zany z SIP czy H.323. Jego jednogniazdowa
+architektura pozwala wspÃ³Å‚pracowaÄ‡ z firewallami z maskowaniem NAT i
+PAT. Biblioteka wspiera umiÄ™dzynarodowienie, zdalne plany dzwonienia
+oraz dane w postaci gÅ‚osu, HTML-a, obrazkÃ³w, DTMF i obrazu. WiÄ™cej
 informacji pod adresem <http://www.gnophone.com/>. Ten pakiet zawiera
 statyczne biblioteki potrzebne do kompilowania statycznie
 konsolidowanych aplikacji IAX.
