@@ -1,5 +1,5 @@
 Summary:	IAX (Inter Asterisk eXchange) library
-Summary(pl.UTF-8):   Biblioteka IAX (Inter Asterisk eXchange)
+Summary(pl.UTF-8):	Biblioteka IAX (Inter Asterisk eXchange)
 Name:		iax
 Version:	0.2.2
 Release:	3
@@ -38,7 +38,7 @@ informacji pod adresem http://www.gnophone.com/.
 
 %package devel
 Summary:	IAX (Inter Asterisk eXchange) development package
-Summary(pl.UTF-8):   Pliki nagłówkowe dla biblioteki IAX
+Summary(pl.UTF-8):	Pliki nagłówkowe dla biblioteki IAX
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -69,7 +69,7 @@ wszystkie pliki potrzebne do kompilowania aplikacji IAX.
 
 %package static
 Summary:	IAX (Inter Asterisk eXchange) static library
-Summary(pl.UTF-8):   Wersja statyczna biblioteki IAX
+Summary(pl.UTF-8):	Wersja statyczna biblioteki IAX
 Group:		Development/Libraries
 Requires:	iax = %{version}
 Requires:	iax-devel = %{version}
